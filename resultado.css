@@ -1,0 +1,11 @@
+#resultado{
+    animation: example 5s infinite;
+    font-size: 100px;
+}
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+  }
+  
