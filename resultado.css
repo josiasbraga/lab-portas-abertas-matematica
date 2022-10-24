@@ -1,4 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
 #resultado{
+    display: flex;
+    align-items: center;
     animation: example 5s infinite;
     font-size: 100px;
 }
@@ -11,3 +21,21 @@
 #res{
     font-size: 50px;
 }
+
+.item {
+    color: brown;
+}
+
+.header{
+    align-items: center;
+    display: flex;
+    margin: 400px 50px 0px 170px;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: blue;
+    width: 80%;
+    box-sizing: border-box;
+    padding: 0;
+
+}
+
