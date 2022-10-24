@@ -1,7 +1,7 @@
 #resultado{
     animation: example 5s infinite;
     font-size: 100px;
-    height: 15vh;
+    height: fit-content;
 }
 @keyframes example {
     0%   {color: red;}
@@ -18,12 +18,12 @@
     bottom: 0;
     left: 0;
     right: 0;
-    width: 10em;
-    height: 20vh;
+    height: fit-content;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: fit-content;
     padding: 30px 35px;
     background: #b29a92;
     border-radius: 20px;
